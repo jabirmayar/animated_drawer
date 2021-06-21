@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 class ThirdLayer extends StatelessWidget {
   final Widget menu;
 
-  ThirdLayer({@required this.menu});
+  ThirdLayer({required this.menu});
 
   @override
   Widget build(BuildContext context) {
