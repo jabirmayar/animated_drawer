@@ -9,7 +9,7 @@ import 'package:flutter/material.dart';
 class HomePage extends StatefulWidget {
   final Widget body;
 
-  HomePage({@required this.body});
+  HomePage({required this.body});
 
   @override
   _HomePageState createState() => new _HomePageState();
