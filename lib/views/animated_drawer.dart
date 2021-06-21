@@ -76,10 +76,10 @@ class AnimatedDrawer extends StatefulWidget {
   ///[shadowColor] argument takes a [Color] argument and set it as shadow behind the homePage widget.
   ///Optional arguments [homePageXValue],[homePageYValue], [homePageAngle], [homePageSpeed], [shadowXValue], [shadowYValue], [shadowAngle], [shadowSpeed] if not provided or provided null, default values will be used.
   AnimatedDrawer(
-      {@required this.backgroundGradient,
-      @required this.menuPageContent,
-      @required this.homePageContent,
-      @required this.shadowColor,
+      {required this.backgroundGradient,
+      required this.menuPageContent,
+      required this.homePageContent,
+      required this.shadowColor,
       this.openIcon,
       this.closeIcon,
       this.homePageXValue,
