@@ -23,48 +23,48 @@ class AnimatedDrawer extends StatefulWidget {
   ///X-Axis Value of Home Page.
   ///
   ///If [homePageXValue] argument is null, widget will use predined values.
-  final double homePageXValue;
+  final double? homePageXValue;
 
   ///Y-Axis Value of Home Page.
   ///
   ///If [homePageYValue] argument is null, widget will use predined values.
-  final double homePageYValue;
+  final double? homePageYValue;
 
   ///Angle Value of Home Page.
   ///
   ///If [homePageAngle] argument is null, widget will use predined values.
-  final double homePageAngle;
+  final double? homePageAngle;
 
   ///X-Axis Value of Second Page.
   ///
   ///If [shadowXValue] argument is null, widget will use predined values.
-  final double shadowXValue;
+  final double? shadowXValue;
 
   ///Y-Axis Value of Second Page
   ///
   ///If [shadowYValue] argument is null, widget will use predined values.
-  final double shadowYValue;
+  final double? shadowYValue;
 
   ///Angle Value of Second Page
   ///
   ///If [shadowAngle] argument is null, widget will use predined values.
-  final double shadowAngle;
+  final double? shadowAngle;
 
   ///Time Duration value of Home Page Animation
   ///
   ///If [homePageSpeed] argument is null, widget will use predined values.
-  final int homePageSpeed;
+  final int? homePageSpeed;
 
   ///Time Duration value of Second Page Animation
   ///
   ///If [shadowSpeed] argument is null, widget will use predined values.
-  final int shadowSpeed;
+  final int? shadowSpeed;
 
   ///[openIcon] is the [Icon] or [Image] which is displayed when the Darwer is closed. If [openIcon] argument is null, Icon(Icons.menu) will be used.
-  final Widget openIcon;
+  final Widget? openIcon;
 
   ///[closeIcon] is the [Icon] or [Image] which is displayed when the Darwer is opened. If [closeIcon] argument is null, Icon(Icons.arrow_back_ios) will be used.
-  final Widget closeIcon;
+  final Widget? closeIcon;
 
   ///A widget to make Animated Drawer with translating X-Axis, Y-Axis and Angle Coordinates.
   ///
