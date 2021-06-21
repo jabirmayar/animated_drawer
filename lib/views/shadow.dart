@@ -9,7 +9,7 @@ ShadowState shadowState;
 class Shadow extends StatefulWidget {
   final Color bgColor;
 
-  Shadow({@required this.bgColor});
+  Shadow({required this.bgColor});
 
   @override
   ShadowState createState() => ShadowState();
