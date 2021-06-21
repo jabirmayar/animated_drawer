@@ -4,7 +4,7 @@ import 'package:animated_drawer/constants/constants.dart';
 import 'package:animated_drawer/constants/runtime_variables.dart';
 import 'package:flutter/material.dart';
 
-ShadowState shadowState;
+late ShadowState shadowState;
 
 class Shadow extends StatefulWidget {
   final Color bgColor;
